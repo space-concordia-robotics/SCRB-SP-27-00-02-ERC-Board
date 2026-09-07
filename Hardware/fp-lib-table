@@ -1,0 +1,12 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "SCRB_Connectors") (type "KiCad") (uri "C:/Users/Ana Maria/Documents/KiCad/9.0/footprints/SCRB_Connectors.pretty") (options "") (descr ""))
+	(lib (name "SCRB_DiodesInc") (type "KiCad") (uri "C:/Users/Ana Maria/Documents/KiCad/9.0/footprints/SCRB_DiodesInc.pretty") (options "") (descr ""))
+	(lib (name "SCRB_EIFs") (type "KiCad") (uri "C:/Users/Ana Maria/Documents/KiCad/9.0/footprints/SCRB_EIFs.pretty") (options "") (descr ""))
+	(lib (name "SCRB_Electromechanical") (type "KiCad") (uri "C:/Users/Ana Maria/Documents/KiCad/9.0/footprints/SCRB_Electromechanical.pretty") (options "") (descr ""))
+	(lib (name "SCRB_Fuses") (type "KiCad") (uri "C:/Users/Ana Maria/Documents/KiCad/9.0/footprints/SCRB_Fuses.pretty") (options "") (descr ""))
+	(lib (name "SCRB_Misc_ICs") (type "KiCad") (uri "C:/Users/Ana Maria/Documents/KiCad/9.0/footprints/SCRB_Misc_ICs.pretty") (options "") (descr ""))
+	(lib (name "SCRB_STD_Actives") (type "KiCad") (uri "C:/Users/Ana Maria/Documents/KiCad/9.0/footprints/SCRB_STD_Actives.pretty") (options "") (descr ""))
+	(lib (name "SCRB_STD_Passives") (type "KiCad") (uri "C:/Users/Ana Maria/Documents/KiCad/9.0/footprints/SCRB_STD_Passives.pretty") (options "") (descr ""))
+	(lib (name "SCRB_TexasInstruments") (type "KiCad") (uri "C:/Users/Ana Maria/Documents/KiCad/9.0/footprints/SCRB_TexasInstruments.pretty") (options "") (descr ""))
+)

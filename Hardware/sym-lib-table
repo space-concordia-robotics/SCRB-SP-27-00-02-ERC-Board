@@ -9,4 +9,5 @@
 	(lib (name "SCRB_STD_Actives") (type "KiCad") (uri "C:/Users/Ana Maria/Documents/KiCad/9.0/symbols/SCRB_STD_Actives.kicad_sym") (options "") (descr ""))
 	(lib (name "SCRB_STD_Passives") (type "KiCad") (uri "C:/Users/Ana Maria/Documents/KiCad/9.0/symbols/SCRB_STD_Passives.kicad_sym") (options "") (descr ""))
 	(lib (name "SCRB_TexasInstruments") (type "KiCad") (uri "C:/Users/Ana Maria/Documents/KiCad/9.0/symbols/SCRB_TexasInstruments.kicad_sym") (options "") (descr ""))
+	(lib (name "AOZ2260AQI-15") (type "KiCad") (uri "C:/Users/Ana Maria/Downloads/LIB_AOZ2260AQI-15/AOZ2260AQI-15/KiCad/AOZ2260AQI-15.kicad_sym") (options "") (descr ""))
 )

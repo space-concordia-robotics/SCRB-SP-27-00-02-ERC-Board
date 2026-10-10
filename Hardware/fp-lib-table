@@ -10,4 +10,5 @@
 	(lib (name "SCRB_STD_Passives") (type "KiCad") (uri "C:/Users/Ana Maria/Documents/KiCad/9.0/footprints/SCRB_STD_Passives.pretty") (options "") (descr ""))
 	(lib (name "SCRB_TexasInstruments") (type "KiCad") (uri "C:/Users/Ana Maria/Documents/KiCad/9.0/footprints/SCRB_TexasInstruments.pretty") (options "") (descr ""))
 	(lib (name "AOZ2260AQI-15") (type "KiCad") (uri "C:/Users/Ana Maria/Downloads/LIB_AOZ2260AQI-15/AOZ2260AQI-15/KiCad/AOZ2260AQI-15.pretty") (options "") (descr ""))
+	(lib (name "TPS54x38") (type "KiCad") (uri "C:/Users/Ana Maria/Downloads/TPS54438RQFR/KiCADv6/footprints.pretty") (options "") (descr ""))
 )

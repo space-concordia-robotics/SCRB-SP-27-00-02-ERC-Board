@@ -993,40 +993,62 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:D_Zener"
-			(pin_numbers
-				(hide yes)
-			)
+		(symbol "MMSZ5232BS-7-F:MMSZ5232BS-7-F"
 			(pin_names
-				(offset 1.016)
-				(hide yes)
+				(offset 0.254)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D"
-				(at 0 2.54 0)
+			(property "Reference" "CR2"
+				(at 6.3501 -3.81 90)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.524 1.524)
 					)
+					(justify right)
 				)
 			)
-			(property "Value" "D_Zener"
-				(at 0 -2.54 0)
+			(property "Value" "MMSZ5232BS-7-F"
+				(at 3.8101 -3.81 90)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
+						(size 1.524 1.524)
+					)
+					(justify right)
+				)
+			)
+			(property "Footprint" "ZDO_SOD323_DIO"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
 						(size 1.27 1.27)
+						(italic yes)
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Datasheet" "MMSZ5232BS-7-F"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+				)
+			)
+			(property "Description" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1037,7 +1059,17 @@
 					)
 				)
 			)
-			(property "Datasheet" ""
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "MMSZ5232BS-7-F"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1048,7 +1080,7 @@
 					)
 				)
 			)
-			(property "Description" "Zener diode"
+			(property "ki_fp_filters" "ZDO_SOD323_DIO ZDO_SOD323_DIO-M ZDO_SOD323_DIO-L"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1059,35 +1091,13 @@
 					)
 				)
 			)
-			(property "ki_keywords" "diode"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "D_Zener_0_1"
+			(symbol "MMSZ5232BS-7-F_0_1"
 				(polyline
 					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -0.762 1.27)
+						(xy 2.54 0) (xy 3.4798 0)
 					)
 					(stroke
-						(width 0.254)
+						(width 0.2032)
 						(type default)
 					)
 					(fill
@@ -1096,10 +1106,10 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 0) (xy -1.27 0)
+						(xy 3.175 0) (xy 3.81 0)
 					)
 					(stroke
-						(width 0)
+						(width 0.2032)
 						(type default)
 					)
 					(fill
@@ -1108,22 +1118,56 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+						(xy 6.35 1.905) (xy 6.985 1.905)
 					)
 					(stroke
-						(width 0.254)
+						(width 0.2032)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-			)
-			(symbol "D_Zener_1_1"
-				(pin passive line
-					(at -3.81 0 0)
+				(polyline
+					(pts
+						(xy 6.35 0) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 -1.905) (xy 5.715 -1.905)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 -1.905) (xy 6.35 1.905)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 8.89 0 180)
 					(length 2.54)
-					(name "K"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1138,10 +1182,10 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 3.81 0 180)
+				(pin unspecified line
+					(at 1.27 0 0)
 					(length 2.54)
-					(name "A"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1154,6 +1198,20 @@
 								(size 1.27 1.27)
 							)
 						)
+					)
+				)
+			)
+			(symbol "MMSZ5232BS-7-F_1_1"
+				(polyline
+					(pts
+						(xy 6.35 0) (xy 3.81 1.778) (xy 3.81 -1.778) (xy 6.35 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type outline)
 					)
 				)
 			)
@@ -6555,12 +6613,6 @@
 		(uuid "42a9586e-c4b9-47ec-8a1d-af44d35c7875")
 	)
 	(junction
-		(at 80.01 194.31)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4576cc78-6189-4cd9-9621-5719daf4e37b")
-	)
-	(junction
 		(at 377.19 195.58)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6691,12 +6743,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a5e8a2b3-8c93-4f2a-9550-f5b663a223cb")
-	)
-	(junction
-		(at 90.17 90.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b1b4e1bb-9c7e-41aa-a779-601d33a0bab0")
 	)
 	(junction
 		(at 92.71 50.8)
@@ -7034,7 +7080,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 194.31) (xy 74.93 194.31)
+			(xy 74.93 194.31) (xy 96.52 194.31)
 		)
 		(stroke
 			(width 0)
@@ -7124,7 +7170,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 90.17) (xy 90.17 90.17)
+			(xy 77.47 90.17) (xy 95.25 90.17)
 		)
 		(stroke
 			(width 0)
@@ -7274,16 +7320,6 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 90.17) (xy 90.17 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "22804067-c500-4dae-8c87-2b0fd3b08751")
-	)
-	(wire
-		(pts
 			(xy 78.74 220.98) (xy 64.77 220.98)
 		)
 		(stroke
@@ -7384,6 +7420,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 194.31) (xy 114.3 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33bf62c5-32fd-4c03-88e9-d494d5f3db03")
+	)
+	(wire
+		(pts
 			(xy 90.17 203.2) (xy 72.39 203.2)
 		)
 		(stroke
@@ -7461,6 +7507,16 @@
 			(type default)
 		)
 		(uuid "422ae541-0fa9-4ab1-86a8-963a11d4acd0")
+	)
+	(wire
+		(pts
+			(xy 102.87 90.17) (xy 113.03 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "431ba24c-f8ed-4df5-afca-e5ea42184bb7")
 	)
 	(wire
 		(pts
@@ -7551,16 +7607,6 @@
 			(type default)
 		)
 		(uuid "510520d9-824a-4da1-b6d7-b4190f60d311")
-	)
-	(wire
-		(pts
-			(xy 367.03 205.74) (xy 381 205.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "51b1899a-9df1-48a8-b23d-3ce94c061291")
 	)
 	(wire
 		(pts
@@ -7811,6 +7857,16 @@
 			(type default)
 		)
 		(uuid "72e7ed79-f8ba-44ae-b5fe-8687cad3a000")
+	)
+	(wire
+		(pts
+			(xy 367.03 214.63) (xy 367.03 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "737b4dc3-d5ae-4da1-a3be-6f7a299b83a6")
 	)
 	(wire
 		(pts
@@ -8084,16 +8140,6 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 194.31) (xy 80.01 194.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8ea76a0f-311f-4ccb-be87-9d7610f176ea")
-	)
-	(wire
-		(pts
 			(xy 274.32 81.28) (xy 275.59 81.28)
 		)
 		(stroke
@@ -8321,6 +8367,16 @@
 			(type default)
 		)
 		(uuid "aeb96b51-8eb0-485e-acd0-05d96da75e2f")
+	)
+	(wire
+		(pts
+			(xy 367.03 205.74) (xy 381 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aecfb514-3aa2-4591-8c2a-b2753d10ec21")
 	)
 	(wire
 		(pts
@@ -10564,7 +10620,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 367.03 213.36 0)
+		(at 367.03 214.63 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10575,7 +10631,7 @@
 		(fields_autoplaced yes)
 		(uuid "01cfe0f9-d99f-4820-bc47-46e6e0e36a0a")
 		(property "Reference" "#PWR032"
-			(at 367.03 219.71 0)
+			(at 367.03 220.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10586,7 +10642,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 367.03 218.44 0)
+			(at 367.03 219.71 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10596,7 +10652,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 367.03 213.36 0)
+			(at 367.03 214.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10607,7 +10663,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 367.03 213.36 0)
+			(at 367.03 214.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10618,7 +10674,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 367.03 213.36 0)
+			(at 367.03 214.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11826,7 +11882,7 @@
 	)
 	(symbol
 		(lib_id "SCRB_Connectors:TP")
-		(at 90.17 90.17 0)
+		(at 113.03 90.17 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11836,7 +11892,7 @@
 		(dnp no)
 		(uuid "1b5180f9-5cb3-415c-8998-9bb4edfff023")
 		(property "Reference" "TP3"
-			(at 88.392 82.042 0)
+			(at 111.252 82.042 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11847,7 +11903,7 @@
 			)
 		)
 		(property "Value" "Testpoint"
-			(at 88.392 84.5821 0)
+			(at 111.252 84.5821 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11858,7 +11914,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Loop_D2.60mm_Drill1.6mm_Beaded"
-			(at 95.25 90.17 0)
+			(at 118.11 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11869,7 +11925,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 95.25 90.17 0)
+			(at 118.11 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11880,7 +11936,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 90.17 90.17 0)
+			(at 113.03 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12870,7 +12926,7 @@
 	)
 	(symbol
 		(lib_id "SCRB_Connectors:TP")
-		(at 80.01 194.31 0)
+		(at 114.3 194.31 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12880,7 +12936,7 @@
 		(dnp no)
 		(uuid "2a29f1f1-3578-4972-97e6-23220679aeca")
 		(property "Reference" "TP2"
-			(at 78.232 186.182 0)
+			(at 112.522 186.182 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12891,7 +12947,7 @@
 			)
 		)
 		(property "Value" "Testpoint"
-			(at 78.232 188.7221 0)
+			(at 112.522 188.7221 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12902,7 +12958,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Loop_D2.60mm_Drill1.6mm_Beaded"
-			(at 85.09 194.31 0)
+			(at 119.38 194.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12913,7 +12969,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 85.09 194.31 0)
+			(at 119.38 194.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12924,7 +12980,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 80.01 194.31 0)
+			(at 114.3 194.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13219,88 +13275,6 @@
 			(project "SCRB-Payload_Extension_ERC"
 				(path "/3fdc6d33-e81a-4107-9341-e64c9c2d0cce"
 					(reference "C9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Zener")
-		(at 367.03 209.55 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2c18427e-6715-43fc-b733-3e99775d776e")
-		(property "Reference" "D1"
-			(at 369.57 208.2799 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "D_Zener"
-			(at 369.57 210.8199 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 367.03 209.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 367.03 209.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Zener diode"
-			(at 367.03 209.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "fd6bffae-3873-4994-90ef-779772691364")
-		)
-		(pin "1"
-			(uuid "3a5a088b-0eeb-4cac-960a-2c6455d53151")
-		)
-		(instances
-			(project "SCRB-Payload_Extension_ERC"
-				(path "/3fdc6d33-e81a-4107-9341-e64c9c2d0cce"
-					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -15590,7 +15564,7 @@
 				)
 			)
 		)
-		(property "Footprint" "VQFN-HR9_RQF_TEX"
+		(property "Footprint" "TPS54x38:VQFN-HR9_RQF_TEX"
 			(at 336.55 187.96 0)
 			(hide yes)
 			(show_name no)
@@ -23377,6 +23351,89 @@
 			(project "SCRB-Payload_Extension_ERC"
 				(path "/3fdc6d33-e81a-4107-9341-e64c9c2d0cce"
 					(reference "R41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MMSZ5232BS-7-F:MMSZ5232BS-7-F")
+		(at 367.03 214.63 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "eae3973b-f3f7-4f04-81f4-a519818f79f0")
+		(property "Reference" "CR2"
+			(at 359.918 206.248 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "MMSZ5232BS-7-F"
+			(at 362.712 205.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "MMSZ5232BS-7-F:ZDO_SOD323_DIO"
+			(at 367.03 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "MMSZ5232BS-7-F"
+			(at 367.03 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 367.03 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "0ca68ef7-ed0f-41f2-a86a-ab1556185505")
+		)
+		(pin "1"
+			(uuid "1a2c25f2-d0f2-4f19-b05e-18628178b7f7")
+		)
+		(instances
+			(project "SCRB-Payload_Extension_ERC"
+				(path "/3fdc6d33-e81a-4107-9341-e64c9c2d0cce"
+					(reference "CR2")
 					(unit 1)
 				)
 			)

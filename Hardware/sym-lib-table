@@ -13,4 +13,5 @@
 	(lib (name "TPS54x38") (type "KiCad") (uri "C:/Users/Ana Maria/Downloads/TPS54438RQFR/KiCADv6/2026-09-19_19-02-54.kicad_sym") (options "") (descr ""))
 	(lib (name "MMBZ5232BLT1G") (type "KiCad") (uri "C:/Users/Ana Maria/Downloads/ul_MMBZ5232BLT1G/KiCADv6/2026-10-24_22-11-52.kicad_sym") (options "") (descr ""))
 	(lib (name "MMSZ5232BS-7-F") (type "KiCad") (uri "C:/Users/Ana Maria/Downloads/ul_MMSZ5232BS-7-F/KiCADv6/2026-10-24_22-50-55.kicad_sym") (options "") (descr ""))
+	(lib (name "ETQ-P6M2R5YLC") (type "KiCad") (uri "C:/Users/Ana Maria/Downloads/ul_ETQ-P6M2R5YLC/KiCADv6/2026-11-11_22-07-57.kicad_sym") (options "") (descr ""))
 )

@@ -1116,6 +1116,146 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "MMSZ5232BS-7-F:MMSZ5232BS-7-F"
 			(pin_names
 				(offset 0.254)
@@ -6703,17 +6843,6 @@
 		)
 		(uuid "48e8740e-c7c6-4778-b309-cb208c5e8e00")
 	)
-	(text "3 OF THESE"
-		(exclude_from_sim no)
-		(at 325.374 171.196 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 255 0 0 1)
-			)
-		)
-		(uuid "5097c463-dab2-4cf3-95da-d1f9fae1ad4b")
-	)
 	(text "ʕっ•ᴥ•ʔっ"
 		(exclude_from_sim no)
 		(at 313.182 262.89 0)
@@ -6786,17 +6915,6 @@
 		)
 		(uuid "b54abb48-7eb7-402a-9b12-16c0873df5fd")
 	)
-	(text "change this\n\nthere is 4 of them"
-		(exclude_from_sim no)
-		(at 312.42 208.534 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 255 0 0 1)
-			)
-		)
-		(uuid "d63adb16-3f5e-4d13-b34e-b1d01cac6a71")
-	)
 	(text "First order differential, common-mode RC filter:\n\nf_cMAX = f_MOD/10 = 256kHz/10 = 25.6kHz\nLoad cell specs: R_in = 405 | R_out = 350 | Excitation = 5V\n\nR_F1 <= 1k -> R_F1,2 = 470\nC_DIF1 = 1/(2π * (350+470+470) * 25.6kHz) = 4.82nF -> 5.1nF\nC_CM1,2 = C_DIF1/10 = 510Pf\n\nC_DIF2 = 1/(2π * 940 * 24.2kHz) = 6.99nF -> 6.8nF\nf_ref = 1/(2π * 940 * 6.8nF) = 24.9kHz"
 		(exclude_from_sim no)
 		(at 211.328 263.398 0)
@@ -6853,6 +6971,24 @@
 		(uuid "10cbcae3-9894-4ed8-bda7-d0d70e0f535c")
 	)
 	(junction
+		(at 321.31 168.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1775da28-560b-49ce-8b96-d0568e2f463e")
+	)
+	(junction
+		(at 314.96 223.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "199eec29-eb94-4068-87e8-3b2f075c35d3")
+	)
+	(junction
+		(at 326.39 215.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1b896f11-87e8-4816-aa3f-46c1f6f6dbc0")
+	)
+	(junction
 		(at 193.04 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6893,6 +7029,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "33a8997c-d952-4112-b22d-c29b194e8d38")
+	)
+	(junction
+		(at 303.53 223.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3f92716b-2dac-45d2-ab74-bb362bddae70")
 	)
 	(junction
 		(at 351.79 105.41)
@@ -6979,6 +7121,12 @@
 		(uuid "76b72e35-9481-4ce3-ac09-29d908f7f993")
 	)
 	(junction
+		(at 311.15 215.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7821fc21-8f80-4320-9152-adf2e1fa459f")
+	)
+	(junction
 		(at 120.65 180.34)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6991,7 +7139,13 @@
 		(uuid "7b70c741-21fd-4f80-8e92-57c562a2aa03")
 	)
 	(junction
-		(at 322.58 161.29)
+		(at 314.96 215.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7f4c7696-0f55-44b5-9c15-6517e92e0184")
+	)
+	(junction
+		(at 331.47 161.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8a1766f7-a82b-4a66-9e20-7f1d4c44dfca")
@@ -7039,10 +7193,22 @@
 		(uuid "a5e8a2b3-8c93-4f2a-9550-f5b663a223cb")
 	)
 	(junction
+		(at 331.47 168.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a5f16f37-a00e-4774-b749-ed0367159d67")
+	)
+	(junction
 		(at 92.71 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c056253c-5c27-48c5-ad4d-f1a3e21447a5")
+	)
+	(junction
+		(at 326.39 223.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c1cbebd5-11f8-493f-811f-6ff0cae2d5de")
 	)
 	(junction
 		(at 261.62 127)
@@ -7069,6 +7235,12 @@
 		(uuid "cd6227a8-6dbd-4646-a2b8-b826ce568150")
 	)
 	(junction
+		(at 321.31 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "db2d6f97-ce09-4621-9cca-6b9356af2a09")
+	)
+	(junction
 		(at 38.1 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7093,7 +7265,7 @@
 		(uuid "f5ac8059-c0d8-455c-bfab-24dbc3950613")
 	)
 	(junction
-		(at 336.55 168.91)
+		(at 345.44 168.91)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fff1662e-6276-4142-af87-4733740dc2d3")
@@ -7359,16 +7531,6 @@
 			(type default)
 		)
 		(uuid "01a80bd1-29f3-44e4-a55b-80442189fa4a")
-	)
-	(wire
-		(pts
-			(xy 317.5 161.29) (xy 322.58 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "01b1700b-5e27-4401-a394-2e25850b9a4d")
 	)
 	(wire
 		(pts
@@ -7772,6 +7934,16 @@
 	)
 	(wire
 		(pts
+			(xy 303.53 223.52) (xy 314.96 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2769b80f-26fc-4158-b07b-03811a11bc96")
+	)
+	(wire
+		(pts
 			(xy 120.65 187.96) (xy 123.19 187.96)
 		)
 		(stroke
@@ -7842,7 +8014,7 @@
 	)
 	(wire
 		(pts
-			(xy 322.58 161.29) (xy 336.55 161.29)
+			(xy 331.47 161.29) (xy 345.44 161.29)
 		)
 		(stroke
 			(width 0)
@@ -7999,6 +8171,16 @@
 			(type default)
 		)
 		(uuid "47b2a826-1f3b-4774-9955-7b570ab86653")
+	)
+	(wire
+		(pts
+			(xy 326.39 215.9) (xy 337.82 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "484ec297-9a2c-4fcd-a874-cdebffaf3565")
 	)
 	(wire
 		(pts
@@ -8182,7 +8364,7 @@
 	)
 	(wire
 		(pts
-			(xy 322.58 168.91) (xy 336.55 168.91)
+			(xy 331.47 168.91) (xy 345.44 168.91)
 		)
 		(stroke
 			(width 0)
@@ -8272,6 +8454,16 @@
 	)
 	(wire
 		(pts
+			(xy 311.15 168.91) (xy 321.31 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d031b9a-5987-41b5-a9e5-a470467d3333")
+	)
+	(wire
+		(pts
 			(xy 304.8 105.41) (xy 307.34 105.41)
 		)
 		(stroke
@@ -8279,6 +8471,16 @@
 			(type default)
 		)
 		(uuid "6d33d29c-d6b6-4f8b-9672-4e86759427b1")
+	)
+	(wire
+		(pts
+			(xy 321.31 161.29) (xy 331.47 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e1f3c34-5972-4a14-bf3c-97013a1e3a2e")
 	)
 	(wire
 		(pts
@@ -8702,6 +8904,16 @@
 	)
 	(wire
 		(pts
+			(xy 321.31 168.91) (xy 331.47 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fc31063-ffab-4158-bf5b-68825abf6864")
+	)
+	(wire
+		(pts
 			(xy 374.65 198.12) (xy 375.92 198.12)
 		)
 		(stroke
@@ -8709,6 +8921,16 @@
 			(type default)
 		)
 		(uuid "a172521f-402b-41bf-b9d0-3b38a0ca098d")
+	)
+	(wire
+		(pts
+			(xy 314.96 215.9) (xy 326.39 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a23f4b39-2d63-4d0a-b364-a8bf38a948ef")
 	)
 	(wire
 		(pts
@@ -8769,6 +8991,16 @@
 			(type default)
 		)
 		(uuid "aa05f4cb-64fa-4897-80b6-782fe255f42c")
+	)
+	(wire
+		(pts
+			(xy 311.15 161.29) (xy 321.31 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac45b6c8-160a-43af-9292-2b28ca2555a9")
 	)
 	(wire
 		(pts
@@ -8849,6 +9081,16 @@
 			(type default)
 		)
 		(uuid "aff46597-69dd-4358-a663-cfc15b5eb399")
+	)
+	(wire
+		(pts
+			(xy 326.39 223.52) (xy 337.82 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b321a7f4-44da-4293-97e8-26ed0baba981")
 	)
 	(wire
 		(pts
@@ -9322,6 +9564,16 @@
 	)
 	(wire
 		(pts
+			(xy 314.96 223.52) (xy 326.39 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3c0180c-4375-4436-b64e-f56410a11a39")
+	)
+	(wire
+		(pts
 			(xy 74.93 50.8) (xy 92.71 50.8)
 		)
 		(stroke
@@ -9349,6 +9601,26 @@
 			(type default)
 		)
 		(uuid "f5a7540b-c923-4cbf-93fd-4e05f5523f9d")
+	)
+	(wire
+		(pts
+			(xy 311.15 215.9) (xy 314.96 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5b4d053-63c8-455b-9bf4-d21b5780e0e3")
+	)
+	(wire
+		(pts
+			(xy 303.53 215.9) (xy 311.15 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f85cbf86-98ec-44b9-a846-880055249fb8")
 	)
 	(wire
 		(pts
@@ -9471,7 +9743,7 @@
 		(uuid "08b3eba4-9e13-4525-acc0-67825499deb0")
 	)
 	(label "VIN"
-		(at 336.55 161.29 0)
+		(at 345.44 161.29 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9489,6 +9761,16 @@
 			(justify right bottom)
 		)
 		(uuid "095d0c78-3a93-494d-be96-136e67243dd9")
+	)
+	(label "Nichrome_LO"
+		(at 323.85 74.93 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "09762518-86f4-41b7-9294-c32ddb4f4eb0")
 	)
 	(label "3V3"
 		(at 173.99 30.48 180)
@@ -10201,7 +10483,7 @@
 		(uuid "5e7e4cbd-f1e3-41e3-827b-372e3e0ab495")
 	)
 	(label "6_Hi"
-		(at 317.5 161.29 180)
+		(at 311.15 161.29 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10911,7 +11193,7 @@
 		(uuid "c354d6a0-6704-45b6-8828-a59b3c2fc6ef")
 	)
 	(label "1V5"
-		(at 303.53 191.77 0)
+		(at 303.53 215.9 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11049,6 +11331,16 @@
 			(justify left bottom)
 		)
 		(uuid "d56410a3-905b-46b5-892b-e3d0b96c3dd8")
+	)
+	(label "Nichrome_Hi"
+		(at 326.39 77.47 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d614224c-6496-4f00-8b05-22c9592f97ad")
 	)
 	(label "Sig3+"
 		(at 173.99 217.17 180)
@@ -11210,16 +11502,6 @@
 		)
 		(uuid "e77f3325-138f-491e-9280-221723366730")
 	)
-	(label "Nichrome_Hi"
-		(at 323.85 74.93 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "e91eddeb-2a60-4bce-92f9-806fcc9067ee")
-	)
 	(label "DE"
 		(at 90.17 153.67 0)
 		(effects
@@ -11359,16 +11641,6 @@
 			(justify left bottom)
 		)
 		(uuid "f61f64bb-d14b-4f14-9911-9d3d4880ccd8")
-	)
-	(label "Nichrome_LO"
-		(at 326.39 77.47 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "f661cdbe-0de6-44e2-98ff-b3f4b0ac3bae")
 	)
 	(label "E4-"
 		(at 445.77 146.05 0)
@@ -12138,7 +12410,7 @@
 	)
 	(symbol
 		(lib_id "SCRB_STD_Passives:C0402")
-		(at 336.55 165.1 0)
+		(at 345.44 165.1 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12149,7 +12421,7 @@
 		(fields_autoplaced yes)
 		(uuid "0f05917e-23c6-4ef4-8b9d-4d8336e60630")
 		(property "Reference" "C14"
-			(at 340.36 162.1015 0)
+			(at 349.25 162.1015 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12160,7 +12432,7 @@
 			)
 		)
 		(property "Value" "0.1u"
-			(at 340.36 164.6415 0)
+			(at 349.25 164.6415 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12171,7 +12443,7 @@
 			)
 		)
 		(property "Footprint" "SCRB_STD_Passives:C0402"
-			(at 336.55 178.816 0)
+			(at 345.44 178.816 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12182,7 +12454,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 336.55 165.1 0)
+			(at 345.44 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12193,7 +12465,7 @@
 			)
 		)
 		(property "Description" "SMD capacitor"
-			(at 337.058 176.53 0)
+			(at 345.948 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12204,7 +12476,7 @@
 			)
 		)
 		(property "Voltage" "50V"
-			(at 340.36 167.1815 0)
+			(at 349.25 167.1815 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16305,7 +16577,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 303.53 199.39 0)
+		(at 303.53 223.52 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16316,7 +16588,7 @@
 		(fields_autoplaced yes)
 		(uuid "450bbb74-0b69-4940-a530-561dc1bfa92f")
 		(property "Reference" "#PWR034"
-			(at 303.53 205.74 0)
+			(at 303.53 229.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16327,7 +16599,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 303.53 204.47 0)
+			(at 303.53 228.6 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16337,7 +16609,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 303.53 199.39 0)
+			(at 303.53 223.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16348,7 +16620,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 303.53 199.39 0)
+			(at 303.53 223.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16359,7 +16631,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 303.53 199.39 0)
+			(at 303.53 223.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16476,7 +16748,7 @@
 	)
 	(symbol
 		(lib_id "SCRB_STD_Passives:C0805")
-		(at 322.58 165.1 0)
+		(at 331.47 165.1 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16487,7 +16759,7 @@
 		(fields_autoplaced yes)
 		(uuid "47fd88f0-58fc-48db-bbf2-edb0b5c5477a")
 		(property "Reference" "C19"
-			(at 326.39 162.1015 0)
+			(at 335.28 162.1015 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16498,7 +16770,7 @@
 			)
 		)
 		(property "Value" "4.7u"
-			(at 326.39 164.6415 0)
+			(at 335.28 164.6415 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16509,7 +16781,7 @@
 			)
 		)
 		(property "Footprint" "SCRB_STD_Passives:C0805"
-			(at 322.58 178.816 0)
+			(at 331.47 178.816 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16520,7 +16792,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 322.58 165.1 0)
+			(at 331.47 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16531,7 +16803,7 @@
 			)
 		)
 		(property "Description" "SMD capacitor"
-			(at 323.088 176.53 0)
+			(at 331.978 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16542,7 +16814,7 @@
 			)
 		)
 		(property "Voltage" "50V"
-			(at 326.39 167.1815 0)
+			(at 335.28 167.1815 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19391,6 +19663,98 @@
 		)
 	)
 	(symbol
+		(lib_id "SCRB_STD_Passives:C0805")
+		(at 321.31 165.1 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7f74c919-d989-45e0-8647-9563b23fab6f")
+		(property "Reference" "C41"
+			(at 324.612 162.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7u"
+			(at 324.612 164.592 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SCRB_STD_Passives:C0805"
+			(at 321.31 178.816 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 321.31 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "SMD capacitor"
+			(at 321.818 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 324.612 166.624 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "2"
+			(uuid "0fd3efeb-e724-47cb-8937-f47375bc7d7c")
+		)
+		(pin "1"
+			(uuid "74fe0772-ecd7-4b85-a958-0f835c2d4e92")
+		)
+		(instances
+			(project "SCRB-Payload_Extension_ERC"
+				(path "/3fdc6d33-e81a-4107-9341-e64c9c2d0cce"
+					(reference "C41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SCRB_STD_Passives:C0402")
 		(at 261.62 238.76 0)
 		(unit 1)
@@ -20768,6 +21132,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 311.15 215.9 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "98200c85-7d6c-4808-a156-21e384d2af05")
+		(property "Reference" "TP5"
+			(at 309.8799 210.82 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 312.166 211.074 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 316.23 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 316.23 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 311.15 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6d678e1b-715e-46c6-b3d9-cdb05e4070d7")
+		)
+		(instances
+			(project "SCRB-Payload_Extension_ERC"
+				(path "/3fdc6d33-e81a-4107-9341-e64c9c2d0cce"
+					(reference "TP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 488.95 119.38 0)
 		(unit 1)
@@ -21086,6 +21528,99 @@
 			(project "SCRB-Payload_Extension_ERC"
 				(path "/3fdc6d33-e81a-4107-9341-e64c9c2d0cce"
 					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SCRB_STD_Passives:C0603")
+		(at 326.39 219.71 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a1a5f205-b72c-4a12-af58-ce8e9092a698")
+		(property "Reference" "C34"
+			(at 330.2 216.7115 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47u"
+			(at 330.2 219.2515 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SCRB_STD_Passives:C0603"
+			(at 326.39 233.426 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 326.39 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "SMD capacitor"
+			(at 326.898 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "6.3V"
+			(at 330.2 221.7915 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "2"
+			(uuid "1f8aafb6-74ea-4e5d-846c-01f02620d866")
+		)
+		(pin "1"
+			(uuid "6f6549e1-d42f-4dd2-987e-c4068a7e8433")
+		)
+		(instances
+			(project "SCRB-Payload_Extension_ERC"
+				(path "/3fdc6d33-e81a-4107-9341-e64c9c2d0cce"
+					(reference "C34")
 					(unit 1)
 				)
 			)
@@ -21903,6 +22438,99 @@
 		)
 	)
 	(symbol
+		(lib_id "SCRB_STD_Passives:C0603")
+		(at 314.96 219.71 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ab199336-f288-42e8-91b0-8f68239eb9f9")
+		(property "Reference" "C28"
+			(at 318.77 216.7115 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47u"
+			(at 318.77 219.2515 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SCRB_STD_Passives:C0603"
+			(at 314.96 233.426 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 314.96 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "SMD capacitor"
+			(at 315.468 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "6.3V"
+			(at 318.77 221.7915 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "2"
+			(uuid "ea803de9-292c-4f17-a672-69c1231300fb")
+		)
+		(pin "1"
+			(uuid "f49733c0-7ec2-433d-852e-d906ce43812b")
+		)
+		(instances
+			(project "SCRB-Payload_Extension_ERC"
+				(path "/3fdc6d33-e81a-4107-9341-e64c9c2d0cce"
+					(reference "C28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 215.9 83.82 0)
 		(unit 1)
@@ -22158,6 +22786,99 @@
 			(project "SCRB-Payload_Extension_ERC"
 				(path "/3fdc6d33-e81a-4107-9341-e64c9c2d0cce"
 					(reference "#PWR054")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SCRB_STD_Passives:C0805")
+		(at 311.15 165.1 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b46ae447-892a-4afe-a098-10c563ee6de0")
+		(property "Reference" "C42"
+			(at 314.96 162.1015 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7u"
+			(at 314.96 164.6415 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SCRB_STD_Passives:C0805"
+			(at 311.15 178.816 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 311.15 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "SMD capacitor"
+			(at 311.658 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 314.96 167.1815 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "2"
+			(uuid "e96102d8-c21c-4c13-b7c4-4110a7d0a459")
+		)
+		(pin "1"
+			(uuid "6d7916fb-0cf9-494a-9b2b-0f6148300304")
+		)
+		(instances
+			(project "SCRB-Payload_Extension_ERC"
+				(path "/3fdc6d33-e81a-4107-9341-e64c9c2d0cce"
+					(reference "C42")
 					(unit 1)
 				)
 			)
@@ -22964,7 +23685,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_GH_BM02B-GHS-TBT_1x02-1MP_P1.25mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical"
 			(at 378.46 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -23099,98 +23820,6 @@
 			(project "SCRB-Payload_Extension_ERC"
 				(path "/3fdc6d33-e81a-4107-9341-e64c9c2d0cce"
 					(reference "C6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SCRB_STD_Passives:R0805")
-		(at 349.25 109.22 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "bf51e9df-6383-48af-8802-2462331956dc")
-		(property "Reference" "R20"
-			(at 342.138 106.934 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R0805"
-			(at 340.614 109.22 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "SCRB_STD_Passives:R0805"
-			(at 349.25 122.936 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 349.25 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "SMD resistor"
-			(at 349.504 120.904 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Precision" "1%"
-			(at 343.916 111.506 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "1"
-			(uuid "2eb75ff1-f3ef-45de-8f1e-efbcb153a3a4")
-		)
-		(pin "2"
-			(uuid "e66027c9-65ac-4487-a134-24ca7c59c36b")
-		)
-		(instances
-			(project "SCRB-Payload_Extension_ERC"
-				(path "/3fdc6d33-e81a-4107-9341-e64c9c2d0cce"
-					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -24539,7 +25168,7 @@
 	)
 	(symbol
 		(lib_id "SCRB_STD_Passives:C0603")
-		(at 303.53 195.58 0)
+		(at 303.53 219.71 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -24550,7 +25179,7 @@
 		(fields_autoplaced yes)
 		(uuid "d0b18a03-5e82-4226-9617-db53bfbe8fa2")
 		(property "Reference" "C4"
-			(at 307.34 192.5815 0)
+			(at 307.34 216.7115 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24561,7 +25190,7 @@
 			)
 		)
 		(property "Value" "47u"
-			(at 307.34 195.1215 0)
+			(at 307.34 219.2515 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24572,7 +25201,7 @@
 			)
 		)
 		(property "Footprint" "SCRB_STD_Passives:C0603"
-			(at 303.53 209.296 0)
+			(at 303.53 233.426 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24583,7 +25212,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 303.53 195.58 0)
+			(at 303.53 219.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24594,7 +25223,7 @@
 			)
 		)
 		(property "Description" "SMD capacitor"
-			(at 304.038 207.01 0)
+			(at 304.038 231.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24604,8 +25233,8 @@
 				)
 			)
 		)
-		(property "Voltage" "Voltage"
-			(at 307.34 197.6615 0)
+		(property "Voltage" "6.3V"
+			(at 307.34 221.7915 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26057,6 +26686,88 @@
 			(project "SCRB-Payload_Extension_ERC"
 				(path "/3fdc6d33-e81a-4107-9341-e64c9c2d0cce"
 					(reference "Y1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 349.25 109.22 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e8d12f8e-5cb2-477c-bc4f-d4ae61bd5b1b")
+		(property "Reference" "R21"
+			(at 351.79 107.9499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 351.79 110.4899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "KRL2012E-M-R010-F-T5:RES_2012_SUS"
+			(at 347.472 109.22 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 349.25 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 349.25 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ecc27aab-f5b7-42ca-9258-57fda3c22f72")
+		)
+		(pin "2"
+			(uuid "ba592196-0b9f-4f62-966c-6c99d92f7180")
+		)
+		(instances
+			(project "SCRB-Payload_Extension_ERC"
+				(path "/3fdc6d33-e81a-4107-9341-e64c9c2d0cce"
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -27592,7 +28303,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 336.55 168.91 0)
+		(at 345.44 168.91 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -27603,7 +28314,7 @@
 		(fields_autoplaced yes)
 		(uuid "f92a58c7-cd4f-4270-bd1e-4d9aaae5aef7")
 		(property "Reference" "#PWR02"
-			(at 336.55 175.26 0)
+			(at 345.44 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27614,7 +28325,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 339.09 170.1799 0)
+			(at 347.98 170.1799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27625,7 +28336,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 336.55 168.91 0)
+			(at 345.44 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27636,7 +28347,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 336.55 168.91 0)
+			(at 345.44 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27647,7 +28358,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 336.55 168.91 0)
+			(at 345.44 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27835,6 +28546,99 @@
 			(project "SCRB-Payload_Extension_ERC"
 				(path "/3fdc6d33-e81a-4107-9341-e64c9c2d0cce"
 					(reference "R27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SCRB_STD_Passives:C0603")
+		(at 337.82 219.71 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fbf7c138-a812-457a-839a-2247324af115")
+		(property "Reference" "C40"
+			(at 340.8461 216.7115 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47u"
+			(at 340.8461 219.2515 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SCRB_STD_Passives:C0603"
+			(at 337.82 233.426 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 337.82 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "SMD capacitor"
+			(at 338.328 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "6.3V"
+			(at 340.8461 221.7915 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "2"
+			(uuid "b1006d3b-2309-411e-9f3c-8142579fcdcc")
+		)
+		(pin "1"
+			(uuid "213160a5-267d-4338-a2c3-5f9e62630552")
+		)
+		(instances
+			(project "SCRB-Payload_Extension_ERC"
+				(path "/3fdc6d33-e81a-4107-9341-e64c9c2d0cce"
+					(reference "C40")
 					(unit 1)
 				)
 			)

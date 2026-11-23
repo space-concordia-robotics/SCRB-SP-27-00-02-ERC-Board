@@ -6768,8 +6768,20 @@
 		(uuid "9681977f-c91f-4902-97d2-5d29ed579c11")
 	)
 	(rectangle
+		(start 407.67 13.97)
+		(end 495.3 163.83)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "a403d705-0456-4e13-ac5a-8055d7511fb5")
+	)
+	(rectangle
 		(start 295.91 138.43)
-		(end 407.67 251.46)
+		(end 406.4 251.46)
 		(stroke
 			(width 0)
 			(type solid)
@@ -6822,6 +6834,16 @@
 			)
 		)
 		(uuid "2e983b4d-c1f5-4352-8f23-c737882290cc")
+	)
+	(text "Load Cell ESD Protection"
+		(exclude_from_sim no)
+		(at 421.64 16.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3de5248f-d874-4435-8d0f-18db7408d65f")
 	)
 	(text "ST-Link"
 		(exclude_from_sim no)
@@ -11392,7 +11414,7 @@
 		)
 		(uuid "d810d972-d7b4-4587-bd2c-bbd58b53ea13")
 	)
-	(label "5V"
+	(label "3V3"
 		(at 350.52 101.6 180)
 		(effects
 			(font
